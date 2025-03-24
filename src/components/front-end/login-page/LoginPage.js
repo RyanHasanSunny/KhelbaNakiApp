@@ -42,7 +42,7 @@ const LoginPage = () => {
           </Link>
         </div>
         <div className="mt-4 text-center">or</div>
-        <button className="w-full bg-red-500 text-white p-2 rounded mt-2">
+        <button className="button">
           Login with Google
         </button>
         <button className="w-full bg-blue-600 text-white p-2 rounded mt-2">
@@ -52,5 +52,7 @@ const LoginPage = () => {
     </div>
   );
 };
+
+
 export default LoginPage;
 
